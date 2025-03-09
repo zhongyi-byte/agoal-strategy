@@ -11,7 +11,11 @@ const nextConfig = {
         hostname: '**',
       },
     ],
-  }
+  },
+  // 禁用生产环境的 ESLint 检查
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig 

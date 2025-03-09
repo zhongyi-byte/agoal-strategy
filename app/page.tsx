@@ -120,7 +120,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="text-xs text-muted-foreground">高价值输出</div>
-                  <p className="mt-2 text-sm">生成简洁的战略洞察摘要，提供具体"行动建议"，包括OKR调整方向</p>
+                  <p className="mt-2 text-sm">生成简洁的战略洞察摘要，提供具体&quot;行动建议&quot;，包括OKR调整方向</p>
                 </CardContent>
               </Card>
               <Card>

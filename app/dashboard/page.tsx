@@ -25,7 +25,7 @@ import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 export default function DashboardPage() {
-  const [activeTab, setActiveTab] = useState("overview")
+  const [_, setActiveTab] = useState("overview")
 
   return (
     <div className="flex min-h-screen flex-col">
